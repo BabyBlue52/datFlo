@@ -1,0 +1,283 @@
+/* Import Futura PT Heavy*/
+
+@font-face {
+    font-family: "Futura";
+    src: url("Futura PT Heavy.woff");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900');
+::selection {
+    color: #fff;
+    background: #111;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 3000px) {
+    div.tablet-info {
+        visibility: hidden;
+    }
+    div.mobile{
+        visibility: hidden;
+    }
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 50px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+    
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #ddd;
+}
+
+input {
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5%;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+button {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button:hover {
+    color: #fff;
+    background: #111;
+}
+
+button.signUp {
+    background: rgba(0, 0, 0, 0.0);
+    color: #000;
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    padding: 0px 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: .75em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button.signUp:hover {
+    background: rgba(17, 17, 17, 0.9);
+    color: #fff;
+    animation-duration: 1500ms;
+}
+
+iframe.slide {
+    position: fixed;
+    top: 220px;
+    right: 176px;
+    width: 311px;
+    z-index: 999;
+    height: 530px;
+}
+
+img.slides {
+    height: 530px;
+    margin: 0 auto;
+}
+
+img.botnav {
+    width: 301px;
+    position: fixed;
+    bottom: 18vh;
+    right: 181px;
+    z-index: 999;
+    border-top: 2px solid #ccc;
+}
+
+img.menu:hover {
+    filter: grayscale(1)
+}
+
+img.social-media {
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+img.social-media:hover {
+    filter: opacity(50%);
+}
+
+img.iphone {
+    position: fixed;
+    top: -20px;
+    right: -50px;
+    width: 768px;
+    z-index: inherit;
+}
+
+div.header {
+    height: 7vh;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+div.boot {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+div.app-cover {
+    background-image: url("img/trey.png");
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    z-index: 999;
+}
+div.mobile-content{
+    height:0;
+}
+a:hover {
+    border: none;
+}
+
+.sticky {
+    height: 250px;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    left: 50px;
+}
+
+.history {
+    background: rgba(225, 225, 225, 0.0);
+    border-left: 2px solid #333;
+    margin-right: 10px;
+    padding: 10px;
+    z-index: -999;
+    position: absolute;
+}
+
+.headline {
+    background-color: #333;
+    font-family: 'Futura', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.small {
+    width: 35vw;
+    margin-left: 45px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+}
+
+.slideLeft {
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    margin-left: 50% !important;
+}
+
+.newsletter {
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+    width: 33vw;
+    padding: 50px 25px;
+    background: #fff;
+    align-content: center;
+}
+
+.menu {
+    border: 0px solid #000;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.centered {
+    width: 500px;
+    position: relative;
+    z-index: 999;
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.container {
+    visibility: visible;
+}
+
+#thanks {
+    width: 100%;
+    height: 100vh;
+    margin-top: -50px;
+    background-image: url("https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14bceaef9e3406f4b66fb49b3b9fe736&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-blend-mode: darken;
+    filter: blur(5px);
+}
+
+#flow {
+    padding-top: 125px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 180px;
+    margin-right: -55px;
+    z-index: 999;
+}
+
+#static {
+    float: right;
+    background: rgba(255, 255, 255, 0.3dp3);
+    height: 100%;
+    position: fixed;
+    top: 65px;
+    right: 10px;
+    padding: 20px;
+}
